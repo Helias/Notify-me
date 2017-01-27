@@ -47,7 +47,7 @@ $ notify
 $ sleep 3; notify "This is a test!"
 ```
 
-the first command should send to you the default_message ("notify!"), the second will send you "This is a test!" after 3 seconds````
+the first command should send to you the default_message ("notify!"), the second will send you "This is a test!" after 3 seconds
 
 Enjoy it!
 
