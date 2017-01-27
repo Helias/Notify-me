@@ -8,7 +8,7 @@ It was useful when I need to compile a big project (like Qt 5.6) and I needed to
 
 You can create an alias on your file **~/.bashrc** just adding and configuring this code:
 
-```
+```bash
 # Telegram notify
 notify() {
 	chatid=your_chat_id #chat_id
@@ -36,18 +36,18 @@ If you haven't a token (so you never made a Bot of Telegram) ask @BotFather, sen
 
 Now, restart the terminal or use:
 
-```
+```bash
 $ source ~/.bashrc
 ```
 
 and try to type these commands:
 
-```
+```bash
 $ notify
-$ notify "This is a test!"
+$ sleep 3; notify "This is a test!"
 ```
 
-the first command should send to you the default_message ("notify!"), the second will send you "This is a test!"
+the first command should send to you the default_message ("notify!"), the second will send you "This is a test!" after 3 seconds````
 
 Enjoy it!
 
