@@ -6,7 +6,7 @@ It was useful when I need to compile a big project (like Qt 5.6) and I needed to
 
 # Usage
 
-You can create an alias on your file **~/.bashrc** just adding and configuring this code:
+You can create an alias on your file **~/.bashrc** (if this file doesn't exist create it with $ touch ~/.bashrc) just adding and configuring this code:
 
 ```bash
 # Telegram notify
