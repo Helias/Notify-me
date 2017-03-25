@@ -2,7 +2,7 @@
 
 I made a shell function to notify me via a Telegram bot.
 
-It was useful when I need to compile a big project (like Qt 5.6) and I needed to know when it will finish.
+It was useful when I needed to compile a big project (like Qt 5.6) and I needed to know when it finish.
 
 # Usage
 
@@ -51,4 +51,4 @@ the first command should send to you the default_message ("notify!"), the second
 
 Enjoy it!
 
-If you want to report something open an issue or ask me via Telegram at **@Helias**
+If you want to report something open an issue or ask me via Telegram at **[@Helias](http://telegram.me/Helias)**
