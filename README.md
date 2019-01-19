@@ -6,7 +6,9 @@ It was useful when I needed to compile a big project (like Qt 5.6) and I needed 
 
 # Usage
 
-You can create an alias on your file **~/.bashrc** (if this file doesn't exist create it with $ touch ~/.bashrc) just adding and configuring this code:
+You can create an alias on your file **~/.bashrc** (if this file doesn't exist create it with $ touch ~/.bashrc) just adding and configuring the following code.
+
+If you are using **MAC** use **~/.bash_profile** instead of ~/.bashrc.
 
 ```bash
 # Telegram notify
@@ -39,6 +41,8 @@ Now, restart the terminal or use:
 ```bash
 $ source ~/.bashrc
 ```
+
+If you are using **MAC** use **~/.bash_profile** instead of ~/.bashrc.
 
 and try to type these commands:
 
