@@ -28,7 +28,7 @@ notify() {
 alias notify=notify
 ```
 
-If you don't know your **chat_id** of Telegram talk to **@GiveChatId_bot** and send to him **/chatid**, it will write your chat_id, so put it on the configuration instead of **your_chat_id**
+If you don't know your **chat_id** of Telegram talk to [**@GiveChatId_bot**](https://t.me/GiveChatId_bot) and send to him **/chatid**, it will write your chat_id, so put it on the configuration instead of **your_chat_id**
 
 If you haven't a token (so you never made a Bot of Telegram) ask **@BotFather**, send him /newbot, send him a name of the bot (like NotifyMe) and an username, be sure that this username is not already taken from another user. Finally take the strings after **"Use this token to access the HTTP API:"**, it should be like this:
 
