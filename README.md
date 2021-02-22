@@ -24,7 +24,7 @@ You can either:
 
 1. Run the script with:
    `bash notify.sh`
-2. Copy the script's code in your **~/.bashrc** (if this file doesn't exist create it with $ touch ~/.bashrc) to call it without 'bash' first.
+2. Copy the script's code in your **~/.bashrc** (if this file doesn't exist create it with `$ touch ~/.bashrc`) to call it without `bash` first.
 
 If you're using **Linux** restart the terminal or run this to apply the changes:
 
@@ -32,7 +32,7 @@ If you're using **Linux** restart the terminal or run this to apply the changes:
 source ~/.bashrc
 ```
 
-If you're using **macOS** edit (or create) a **~/.bash_profile** and repeat the same procedure but replace all occurrencies of **~/.bashrc** with **~/.bash_profile** in the previous commands.
+If you're using **MacOS** edit (or create) a **~/.bash_profile** and repeat the same procedure but replace all occurrencies of **~/.bashrc** with **~/.bash_profile** in the previous commands.
 
 You can try these commands:
 
