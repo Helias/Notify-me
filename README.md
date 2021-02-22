@@ -50,7 +50,7 @@ If you're using **Windows** you actually have three options:
    `.\notify.ps1 <chat_id> <bot_token>`
    A third argument could be provided to change message text
 
-#Enjoy!
+# Enjoy!
 
 If you want to report something you could either:
 
