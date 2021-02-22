@@ -12,21 +12,27 @@ First of all, if you haven't got a token (for example because you have never mad
 318682111:AAFouzmHLujO17LY3VJUfhnp4yn8qLIo9Uw
 ```
 
-If you don't know your Telegram's **chat_id** talk to [**@GiveChatId_bot**](https://t.me/GiveChatId_bot) and send to him **/chatid**, it will write your chat_id, so put it on the configuration instead of **your_chat_id**
+If you don't know your Telegram's **chat_id** talk to [**@GiveChatId_bot**](https://t.me/GiveChatId_bot) and send to him **/chatid**, it will write your chat_id, so put it on the configuration instead of **your_chat_id**.
 
-Or you could send a message to your own bot and then use this [link](https://api.telegram.org/bot**TOKEN**/getUpdates). You should see then that your message has been received by your bot and is listed. Traversing the json you should find a **chat** key with an **id** key inside which value is exactly your chat_id
+Or you could send a message to your own bot and then use this [link](https://api.telegram.org/bot**TOKEN**/getUpdates). You should see then that your message has been received by your bot and is listed. Traversing the json you should find a **chat** key with an **id** key inside which value is exactly your chat_id.
 
 Now the procedure differs based on which OS you're using.
 
 ### Linux and macOS
 
-If you're using **Linux** restart the terminal or use:
+You can either:
+
+1. Run the script with:
+   `bash notify.sh`
+2. Copy the script's code in your **~/.bashrc** (if this file doesn't exist create it with $ touch ~/.bashrc) to call it without 'bash' first.
+
+If you're using **Linux** restart the terminal or run this to apply the changes:
 
 ```bash
 source ~/.bashrc
 ```
 
-If you're using **macOS** replace **~/.bashrc** with **~/.bash_profile** in the command above.
+If you're using **macOS** edit (or create) a **~/.bash_profile** and repeat the same procedure but replace all occurrencies of **~/.bashrc** with **~/.bash_profile** in the previous commands.
 
 You can try these commands:
 
@@ -35,7 +41,7 @@ notify
 sleep 3; notify "This is a test!"
 ```
 
-the first command should send to you the default_message ("notify!"), the second will send you "This is a test!" after 3 seconds
+the first command should send to you the default_message ("notify!"), the second will send you "This is a test!" after 3 seconds.
 
 ### Windows
 
