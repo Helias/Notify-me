@@ -61,5 +61,5 @@ If you're using **Windows** you actually have three options:
 If you want to report something you could either:
 
 - Open an issue
-- Ask [me](http://telegram.me/Helias) via Telegram (Linux and macOS)
+- Ask [Helias](http://telegram.me/Helias) via Telegram (Linux and macOS)
 - Ask [Lorenzo](http://telegram.me/lorenzopappalardo7) via Telegram (Windows)
